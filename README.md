@@ -18,13 +18,15 @@ The given program uses a greedy stack based approach to evaluate valid operation
 Unfortunately, this program may be wrong!
 
 # Instructions:
-1. ssh into your favorite UTCS lab machine
-2. git clone this repository
-3. read then use the Makefile
-4. debug the test cases using GDB
-5. Ensure your output matches the reference exactly.
-6. commit and push your changes
-7. use git log and show proctor
+1. create a file ~/.config/gdb/gdbinit
+2. Add the line 'set history save on' to this file
+3. ssh into your favorite UTCS lab machine
+4. git clone this repository
+5. read then use the Makefile
+6. debug the test cases using GDB
+7. Ensure your output matches the reference exactly.
+8. commit and push your changes
+9. use git log and show proctor
 
 To run an individual testcase use 
 `mini_ci <file>`. Use `mini_ci_reference <file>` for the reference output.

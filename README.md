@@ -1,4 +1,12 @@
 # cs429-mastery-assignment
+## [IMPORTANT] After you SSH into a lab machine: Note that
+- **ALL git commands must be in the command line.**
+- **ALL gdb debugging must be in the command line.**
+- **ALL file system actions (eg. creating a file, navigating a file, etc) must be in the command line**
+
+You are allowed to utilize the terminal of your choice for these actions, but they must be accomplished in-terminal. 
+
+*Note: SSHing via VS Code or another GUI is acceptable provided that the above actions are then accomplished via a terminal therein.*
 
 # What this repo contains:
 - `main.c`, `reader.c`, `calculator.c` and their corresponding header files.

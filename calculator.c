@@ -52,7 +52,7 @@ int calculate_result(struct Reader *reader) {
             free(val_a);
             free(val_b);
             free(op);
-            free(head);
+//            free(head);
             head = new_token;
         }
         advance(reader);
